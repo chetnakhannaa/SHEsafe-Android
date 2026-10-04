@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shesafe.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:4:5-79
+12-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:5:5-81
+13-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:6:5-85
+14-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:6:22-82
+15
+16    <application
+16-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:8:5-34:19
+17        android:allowBackup="true"
+17-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:9:9-35
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:label="SHEsafe"
+20-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:10:9-32
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:11:9-40
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:12:9-44
+24        <activity
+24-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:13:9-20:20
+25            android:name="com.shesafe.app.MainActivity"
+25-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:14:13-41
+26            android:exported="true" >
+26-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:15:13-36
+27            <intent-filter>
+27-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:16:13-19:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:17:17-69
+28-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:18:17-77
+30-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:18:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:22:9-33:19
+35            android:name="com.shesafe.app.VolumeSosAccessibilityService"
+35-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:23:13-58
+36            android:exported="true"
+36-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:24:13-36
+37            android:label="SHEsafe Volume SOS"
+37-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:25:13-47
+38            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+38-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:26:13-79
+39            <intent-filter>
+39-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:27:13-29:29
+40                <action android:name="android.accessibilityservice.AccessibilityService" />
+40-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:28:17-92
+40-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:28:25-89
+41            </intent-filter>
+42
+43            <meta-data
+43-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:30:13-32:72
+44                android:name="android.accessibilityservice"
+44-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:31:17-60
+45                android:resource="@xml/accessibility_service_config" />
+45-->C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\AndroidManifest.xml:32:17-69
+46        </service>
+47    </application>
+48
+49</manifest>

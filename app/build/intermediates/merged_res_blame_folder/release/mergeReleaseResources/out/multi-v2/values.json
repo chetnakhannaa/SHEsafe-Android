@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.shesafe.app-mergeReleaseResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chetn\\OneDrive\\Desktop\\SHEsafe-Android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,55",
+                        "endColumns": "166,44",
+                        "endOffsets": "262,95"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,222",
+                        "endColumns": "166,44",
+                        "endOffsets": "217,262"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chetn\\OneDrive\\Desktop\\SHEsafe-Android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "383"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "267",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "595"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+com.shesafe.app.test.app-androidTest-0 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\build\generated\res\resValues\androidTest\debug
+com.shesafe.app.test.app-mergeDebugAndroidTestResources-1 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.shesafe.app.test.app-mergeDebugAndroidTestResources-2 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.shesafe.app.test.app-debugAndroidTest-3 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

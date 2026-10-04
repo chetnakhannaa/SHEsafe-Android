@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SHEsafe</string>
+    <string name="accessibility_description">Allows SHEsafe to detect three volume-button presses and send an SOS alert even when the app screen is not open.</string>
+</resources>

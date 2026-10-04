@@ -1,0 +1,7 @@
+com.shesafe.app-pngs-0 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\build\generated\res\pngs\release
+com.shesafe.app-resValues-1 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\build\generated\res\resValues\release
+com.shesafe.app-packageReleaseResources-2 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.shesafe.app-packageReleaseResources-3 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.shesafe.app-release-4 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.shesafe.app-main-5 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\main\res
+com.shesafe.app-release-6 C:\Users\chetn\OneDrive\Desktop\SHEsafe-Android\app\src\release\res
